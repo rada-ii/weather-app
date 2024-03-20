@@ -4,7 +4,7 @@ function HourlyForecast({ hourlyForecast }) {
   return (
     <div className="mt-8 text-center">
       <h2 className="text-2xl font-bold my-8">Hourly Forecast</h2>
-      <div className="grid grid-cols-4 ">
+      <div className="grid lg:grid-cols-4 grid-cols-1 ">
         {hourlyForecast.map((item) => (
           <div key={item.dt}>
             <p className="font-extrabold">
